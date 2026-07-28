@@ -54,7 +54,7 @@ user/kernel boundary.
 | 8 | [Interprocess Communication (IPC)](content/08-ipc.md) | ✅ Done | 3–4 h |
 | 9 | [Network I/O and Socket Programming](content/09-sockets.md) | ✅ Done | 3–4 h |
 | 10 | [I/O Models and Asynchronous I/O](content/10-io-models.md) | ✅ Done | 3–4 h |
-| 11 | ioctl and the Many Kinds of I/O | ⏳ Planned | 2 h |
+| 11 | [ioctl and the Many Kinds of I/O](content/11-ioctl.md) | ✅ Done | 2 h |
 | 12 | The /proc and /sys Filesystems | ⏳ Planned | 2–3 h |
 | 13 | Kernel Integration: Syscalls to Kernel Internals | ⏳ Planned | 3–4 h |
 | 14 | Device Drivers, Controllers, and Hardware I/O | ⏳ Planned | 4–5 h |
