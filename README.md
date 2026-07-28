@@ -47,7 +47,7 @@ user/kernel boundary.
 | 1 | [The User, the Shell, and the Filesystem](content/01-the-user-the-shell-the-filesystem.md) | ✅ Done | 3–4 h |
 | 2 | [C for Systems Programming](content/02-c-for-systems-programming.md) | ✅ Done | 3–4 h |
 | 3 | [File I/O: open, read, write, close](content/03-file-io.md) | ✅ Done | 3–4 h |
-| 4 | Console I/O and the Terminal | ⏳ Planned | 2–3 h |
+| 4 | [Console I/O and the Terminal](content/04-console-io-and-the-terminal.md) | ✅ Done | 2–3 h |
 | 5 | Processes (fork, exec, wait, signals) | ⏳ Planned | 4–5 h |
 | 6 | Threads | ⏳ Planned | 3–4 h |
 | 7 | Memory Management | ⏳ Planned | 4–5 h |
