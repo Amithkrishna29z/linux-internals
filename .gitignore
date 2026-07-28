@@ -1,0 +1,18 @@
+# Compiled binaries produced by the Makefile (source lives in examples/**/*.c)
+examples/**/*
+!examples/**/
+!examples/**/*.c
+
+# Object files, kernel module build artifacts (Modules 13/14)
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+.tmp_versions/
+
+# Editor / OS cruft
+*.swp
+*~
+.DS_Store
