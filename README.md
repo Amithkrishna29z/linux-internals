@@ -44,7 +44,7 @@ user/kernel boundary.
 | # | Module | Status | Est. time |
 |---|--------|--------|-----------|
 | 0 | [The Mental Model](content/00-the-mental-model.md) | ✅ Done | 3–4 h |
-| 1 | The User, the Shell, and the Filesystem | ⏳ Planned | 3–4 h |
+| 1 | [The User, the Shell, and the Filesystem](content/01-the-user-the-shell-the-filesystem.md) | ✅ Done | 3–4 h |
 | 2 | C for Systems Programming | ⏳ Planned | 3–4 h |
 | 3 | File I/O: open, read, write, close | ⏳ Planned | 3–4 h |
 | 4 | Console I/O and the Terminal | ⏳ Planned | 2–3 h |
