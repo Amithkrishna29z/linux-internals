@@ -49,7 +49,7 @@ user/kernel boundary.
 | 3 | [File I/O: open, read, write, close](content/03-file-io.md) | ✅ Done | 3–4 h |
 | 4 | [Console I/O and the Terminal](content/04-console-io-and-the-terminal.md) | ✅ Done | 2–3 h |
 | 5 | [Processes (fork, exec, wait, signals)](content/05-processes.md) | ✅ Done | 4–5 h |
-| 6 | Threads | ⏳ Planned | 3–4 h |
+| 6 | [Threads](content/06-threads.md) | ✅ Done | 3–4 h |
 | 7 | Memory Management | ⏳ Planned | 4–5 h |
 | 8 | Interprocess Communication (IPC) | ⏳ Planned | 3–4 h |
 | 9 | Network I/O and Socket Programming | ⏳ Planned | 3–4 h |
