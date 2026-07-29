@@ -59,7 +59,7 @@ user/kernel boundary.
 | 13 | [Kernel Integration: Syscalls to Kernel Internals](content/13-kernel-integration.md) | ✅ Done | 3–4 h |
 | 14 | [Device Drivers, Controllers, and Hardware I/O](content/14-drivers.md) | ✅ Done | 4–5 h |
 | 15 | [Berkeley Packet Filter (BPF) and eBPF](content/15-ebpf.md) | ✅ Done | 3 h |
-| 16 | Capstone (container runtime / HTTP server / KV store) | ⏳ Planned | 6–8 h |
+| 16 | [Capstone (container runtime / HTTP server / KV store)](content/16-capstone.md) | ✅ Done | 6–8 h |
 
 ---
 
