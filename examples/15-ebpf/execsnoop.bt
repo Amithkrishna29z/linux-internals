@@ -1,0 +1,24 @@
+#!/usr/bin/env bpftrace
+/*
+ * execsnoop.bt -- print every program executed system-wide, live.
+ * Attaches an eBPF program to the execve tracepoint (Module 5's exec!): each
+ * time ANY process calls execve, our in-kernel program fires and prints the
+ * calling PID, the process name, and the command being run.
+ *
+ * Run:  sudo bpftrace execsnoop.bt
+ *   then in another terminal run some commands (ls, date, grep ...) and watch.
+ * Stop: Ctrl-C.
+ */
+
+BEGIN
+{
+    printf("%-8s %-16s %-16s %s\n", "PID", "PARENT", "COMM", "ARGS");
+}
+
+/* Hook: the enter of the execve syscall -- a stable tracepoint. */
+tracepoint:syscalls:sys_enter_execve
+{
+    /* args->filename is the program path; comm/pid are the current process. */
+    printf("%-8d %-16s %-16s %s\n",
+           pid, comm, str(args->filename), str(args->argv[0]));
+}

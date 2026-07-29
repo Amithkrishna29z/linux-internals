@@ -58,7 +58,7 @@ user/kernel boundary.
 | 12 | [The /proc and /sys Filesystems](content/12-proc-sys.md) | ✅ Done | 2–3 h |
 | 13 | [Kernel Integration: Syscalls to Kernel Internals](content/13-kernel-integration.md) | ✅ Done | 3–4 h |
 | 14 | [Device Drivers, Controllers, and Hardware I/O](content/14-drivers.md) | ✅ Done | 4–5 h |
-| 15 | Berkeley Packet Filter (BPF) and eBPF | ⏳ Planned | 3 h |
+| 15 | [Berkeley Packet Filter (BPF) and eBPF](content/15-ebpf.md) | ✅ Done | 3 h |
 | 16 | Capstone (container runtime / HTTP server / KV store) | ⏳ Planned | 6–8 h |
 
 ---
