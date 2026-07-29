@@ -15,6 +15,9 @@ LDLIBS  := -lpthread -lrt
 
 # Every C source file under examples/ (recursively).
 SRCS := $(shell find examples -name '*.c' 2>/dev/null)
+# Exclude kernel-module sources: they build with kbuild (see their own Makefile),
+# not the userspace gcc rule below. (Module 14's driver.)
+SRCS := $(filter-out examples/14-drivers/hellochar.c, $(SRCS))
 # The binary for each source is the source path minus the .c suffix.
 BINS := $(SRCS:.c=)
 
