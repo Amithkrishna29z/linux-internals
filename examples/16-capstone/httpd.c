@@ -166,6 +166,7 @@ int main(int argc, char **argv)
                     if (cfd < 0) break;                 /* EAGAIN: drained */
                     set_nonblock(cfd);
                     struct conn *nc = calloc(1, sizeof *nc);
+                    if (!nc) { close(cfd); continue; }   /* OOM: drop this client */
                     nc->fd = cfd;
                     struct epoll_event cev = { .events = EPOLLIN, .data.ptr = nc };
                     epoll_ctl(ep, EPOLL_CTL_ADD, cfd, &cev);
