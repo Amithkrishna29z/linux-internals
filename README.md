@@ -48,18 +48,18 @@ user/kernel boundary.
 | 2 | [C for Systems Programming](content/02-c-for-systems-programming.md) | ✅ Done | 3–4 h |
 | 3 | [File I/O: open, read, write, close](content/03-file-io.md) | ✅ Done | 3–4 h |
 | 4 | [Console I/O and the Terminal](content/04-console-io-and-the-terminal.md) | ✅ Done | 2–3 h |
-| 5 | Processes (fork, exec, wait, signals) | ⏳ Planned | 4–5 h |
-| 6 | Threads | ⏳ Planned | 3–4 h |
-| 7 | Memory Management | ⏳ Planned | 4–5 h |
-| 8 | Interprocess Communication (IPC) | ⏳ Planned | 3–4 h |
-| 9 | Network I/O and Socket Programming | ⏳ Planned | 3–4 h |
-| 10 | I/O Models and Asynchronous I/O | ⏳ Planned | 3–4 h |
-| 11 | ioctl and the Many Kinds of I/O | ⏳ Planned | 2 h |
-| 12 | The /proc and /sys Filesystems | ⏳ Planned | 2–3 h |
-| 13 | Kernel Integration: Syscalls to Kernel Internals | ⏳ Planned | 3–4 h |
-| 14 | Device Drivers, Controllers, and Hardware I/O | ⏳ Planned | 4–5 h |
-| 15 | Berkeley Packet Filter (BPF) and eBPF | ⏳ Planned | 3 h |
-| 16 | Capstone (container runtime / HTTP server / KV store) | ⏳ Planned | 6–8 h |
+| 5 | [Processes (fork, exec, wait, signals)](content/05-processes.md) | ✅ Done | 4–5 h |
+| 6 | [Threads](content/06-threads.md) | ✅ Done | 3–4 h |
+| 7 | [Memory Management](content/07-memory-management.md) | ✅ Done | 4–5 h |
+| 8 | [Interprocess Communication (IPC)](content/08-ipc.md) | ✅ Done | 3–4 h |
+| 9 | [Network I/O and Socket Programming](content/09-sockets.md) | ✅ Done | 3–4 h |
+| 10 | [I/O Models and Asynchronous I/O](content/10-io-models.md) | ✅ Done | 3–4 h |
+| 11 | [ioctl and the Many Kinds of I/O](content/11-ioctl.md) | ✅ Done | 2 h |
+| 12 | [The /proc and /sys Filesystems](content/12-proc-sys.md) | ✅ Done | 2–3 h |
+| 13 | [Kernel Integration: Syscalls to Kernel Internals](content/13-kernel-integration.md) | ✅ Done | 3–4 h |
+| 14 | [Device Drivers, Controllers, and Hardware I/O](content/14-drivers.md) | ✅ Done | 4–5 h |
+| 15 | [Berkeley Packet Filter (BPF) and eBPF](content/15-ebpf.md) | ✅ Done | 3 h |
+| 16 | [Capstone (container runtime / HTTP server / KV store)](content/16-capstone.md) | ✅ Done | 6–8 h |
 
 ---
 

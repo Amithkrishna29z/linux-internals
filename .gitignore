@@ -2,6 +2,8 @@
 examples/**/*
 !examples/**/
 !examples/**/*.c
+!examples/**/Makefile
+!examples/**/*.bt
 
 # Object files, kernel module build artifacts (Modules 13/14)
 *.o

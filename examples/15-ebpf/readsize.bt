@@ -1,0 +1,25 @@
+#!/usr/bin/env bpftrace
+/*
+ * readsize.bt -- histogram of the SIZE returned by read() syscalls, aggregated
+ * IN-KERNEL using an eBPF map. Demonstrates maps: the kernel program tallies
+ * into a histogram map; bpftrace prints it on exit. Also counts read() calls
+ * per process name.
+ *
+ * Run:  sudo bpftrace readsize.bt      (Ctrl-C after some activity)
+ */
+
+/* On every return from a read() syscall, record the returned byte count. */
+tracepoint:syscalls:sys_exit_read
+/args->ret > 0/                     /* only successful reads (ret = bytes read) */
+{
+    @bytes = hist(args->ret);        /* @bytes is a HISTOGRAM MAP, updated in-kernel */
+    @reads[comm] = count();          /* @reads is a per-command COUNTER MAP */
+}
+
+END
+{
+    printf("\n-- read() sizes (log2 histogram) --\n");
+    print(@bytes);
+    printf("\n-- read() count by process --\n");
+    print(@reads);
+}
